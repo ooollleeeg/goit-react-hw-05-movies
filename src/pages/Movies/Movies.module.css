@@ -1,0 +1,37 @@
+.searchForm {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 250px;
+  padding: 7px;
+
+  border: 1px solid rgb(50, 91, 228);
+  border-radius: 4px;
+}
+
+.buttonIcon {
+  margin-right: 5px;
+}
+
+.button {
+  padding: 7px 15px;
+  margin-left: 15px;
+  background-color: rgb(50, 91, 228);
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(196, 245, 200);
+  color: rgb(50, 91, 228);
+  border: 1px solid rgb(50, 91, 228);
+}

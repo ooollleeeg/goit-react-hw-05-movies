@@ -1,0 +1,41 @@
+.castList {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.castMember {
+  display: flex;
+  gap: 25px;
+  padding-right: 15px;
+
+  border: 2px solid rgb(50, 91, 228);
+  border-radius: 4px;
+
+  width: calc((100% - 90px) / 3);
+  min-width: 320px;
+}
+
+.name {
+  margin: 20px 0;
+  color: rgb(50, 91, 228);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.character {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.characterName {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}

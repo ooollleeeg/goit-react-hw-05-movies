@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.item:first-child {
+  margin-top: 0;
+}
+
+.icon {
+  display: inline;
+  margin-right: 13px;
+  color: rgb(50, 91, 228);
+}
+
+.link {
+  text-decoration: underline;
+  color: black;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(50, 91, 228);
+  text-decoration: none;
+}
